@@ -15,6 +15,9 @@
         <module>common-utils</module>
         <module>web-api</module>
         <module>stream-exercise</module>
+        <module>array-exercis</module>
+        <module>security-Oauth2 Demo</module>
+        <module>spring-keycloak-demo</module>
     </modules>
 
     <groupId>com.personal</groupId>
