@@ -1,4 +1,4 @@
-# 🔐 KeyCloak-Oauth2 Client + Resource Server Intergrate Sringboot
+# 🔐 KeyCloak-Oauth2 Client + Resource Server Intergrate
 # 👉 Step-By-Step
   ## 1) Create a GitHub OAuth App
   <img width="680" height="255" alt="image" src="https://github.com/user-attachments/assets/9a6d7c22-6a04-472b-a550-bf37acb39b33" />
