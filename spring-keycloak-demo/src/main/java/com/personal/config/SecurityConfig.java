@@ -28,6 +28,7 @@ public class SecurityConfig{
         http
                 .csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests((authorize)-> authorize
+                        .requestMatchers("/api/auth/register").permitAll()
                         .anyRequest().authenticated())
                 .oauth2ResourceServer(
                         (oauth2)-> oauth2.jwt(

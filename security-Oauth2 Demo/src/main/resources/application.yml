@@ -8,8 +8,9 @@ spring:
       client:
         registration:
           github:
-            client-id: Ov23liMTxafnKTsyJxlW
-            client-secret: 34c92e8f006f0274775258e58d507a6a1f0526ca
+            client-id: Iv23li8tDZRnSlIlbchw
+            client-secret: f5ead8c1808ad2e629bd5081e68a09fd6579aa24
+            scope: read:user
 #          scope: profile, email
 #          redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
 #          client-name: Google

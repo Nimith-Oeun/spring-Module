@@ -2,6 +2,8 @@ package com.personal.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,12 +20,16 @@ public class Controller {
     @GetMapping("/user")
     @PreAuthorize("hasRole('role_user')")
     public ResponseEntity<String> helloUser() {
-        return ResponseEntity.ok("Hello From User!");
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        String name = authentication.getName();
+        return ResponseEntity.ok("Hello Welcome :" + name);
     }
 
     @GetMapping("/admin")
     @PreAuthorize("hasRole('role_admin')")
     public ResponseEntity<String> helloAdmin() {
-        return ResponseEntity.ok("Hello From Admin!");
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        String name = authentication.getName();
+        return ResponseEntity.ok("Hello welcome :" + name);
     }
 }
