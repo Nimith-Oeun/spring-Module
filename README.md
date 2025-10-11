@@ -14,7 +14,40 @@
   - Go to Keycloak → Clients → github-nimith-cc → Roles → Create roles (e.g. user).
   - Go to Realm Settings → User Registration → Default Roles.
   - Add your client role (e.g. github-nimith-cc.user) to the default realm roles.
+    
   ✍ New users (including GitHub federated ones) will automatically get that role at first login.
+
+## 5) Spring Boot: application.yml (use Keycloak as issuer)
+```
+server:
+  port: 9090
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          keycloak:
+            client-id: <KEYCLOAK_CLIENT_ID>
+            client-secret: <KEYCLOAK_CLIENT_SECRET>
+            provider: keycloak
+            scope:
+              - openid
+              - profile
+              - email
+        provider:
+          keycloak:
+            issuer-uri: <KEYCLOAK_HOST>/realms/<REALM>
+      resourceserver:
+        jwt:
+          issuer-uri: <KEYCLOAK_HOST>/realms/<REALM>
+
+jwt:
+  auth:
+    converter:
+      resource-id: <KEYCLOAK_CLIENT_ID>
+      principle-attribute: preferred_username
+```
 
 ## 6) Spring Security config (Java)
 ```
