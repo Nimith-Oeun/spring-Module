@@ -1,5 +1,67 @@
 # 🔐 KeyCloak-Oauth2 Client + Resource Server Intergrate
 ## 👉 Step-By-Step
+```
+┌───────────────────────────────┐
+│          User Browser         │
+│  (Login via GitHub button)    │
+└──────────────┬────────────────┘
+               │
+               ▼
+        [1] Redirect to
+        GitHub Login Page
+               │
+               ▼
+┌───────────────────────────────┐
+│          GitHub OAuth         │
+│  - Authenticates user         │
+│  - Returns user info          │
+└──────────────┬────────────────┘
+               │
+               ▼
+     [2] Redirect back to
+     Keycloak (Identity Broker)
+               │
+               ▼
+┌───────────────────────────────┐
+│           Keycloak            │
+│ Realm: NIMITH                 │
+│ Client: github-nimith-cc      │
+│ Identity Provider: GitHub     │
+│                               │
+│  [3] Check if user exists     │
+│   ├─ If not, create user      │
+│   │   (federated user)        │
+│   │                           │
+│   ├─ If Default Role set      │
+│   │   → Assign automatically  │
+│   │                           │
+│   ├─ If IDP Role Mapper set   │
+│   │   → Inject role (e.g user)│
+│   │                           │
+│   └─ If manual mapping        │
+│       → Admin assigns later   │
+└──────────────┬────────────────┘
+               │
+               ▼
+     [4] Keycloak issues tokens
+     - access_token (JWT)
+     - id_token
+     - refresh_token
+               │
+               ▼
+┌───────────────────────────────┐
+│       Spring Boot App         │
+│  (OAuth2 Resource Server)     │
+│                               │
+│ - Validates JWT (issuer-uri)  │
+│ - Extracts roles:             │
+│   resource_access.github-nimith-cc.roles │
+│                               │
+│ - Applies Spring Security     │
+│   rules (ROLE_USER, etc.)     │
+└───────────────────────────────┘
+
+```
   ## 1) Create a GitHub OAuth App
   <img width="680" height="255" alt="image" src="https://github.com/user-attachments/assets/9a6d7c22-6a04-472b-a550-bf37acb39b33" />
   
@@ -208,5 +270,16 @@ https://oauth.pstmn.io/v1/callback
 ```
 <img width="1051" height="137" alt="image" src="https://github.com/user-attachments/assets/aacb0da6-61a1-4938-8d1e-cc06b4e5f4b3" />
 
+# ✍️Bunnus
+```
+[ User ]
+   ↓
+   → Login via GitHub / Facebook / Username-password
+   ↓
+[ Keycloak ]
+   ↓ issues JWT
+[ Spring Boot App (Resource Server) ]
+   ↓ verifies JWT
+[ Application APIs ]
 
-
+```
