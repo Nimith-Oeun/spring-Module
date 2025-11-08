@@ -1,0 +1,11 @@
+package com.personal.service;
+
+import com.personal.model.Product;
+
+import java.util.List;
+import java.util.Map;
+
+public interface ProductService {
+
+    List<Product> findProductOperations(Map<String, String> filter);
+}

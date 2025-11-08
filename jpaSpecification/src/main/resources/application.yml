@@ -1,0 +1,25 @@
+#==================================================================
+#    * Application configuration file for JPA Specification example.
+#==================================================================
+server:
+  port: 8092
+
+
+spring:
+  application:
+    name: jpaSpecification
+
+
+  datasource:
+    url: jdbc:h2:file:./data/mydb
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+
+  sql:
+    init:
+      mode: always
+      data-locations: classpath:data/sample_data.sql

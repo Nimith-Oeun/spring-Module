@@ -8,7 +8,7 @@ spring:
         registration:
           keycloak:
             client-id: github-nimith-cc
-            client-secret: al8bR60BD5DpEAtTrnmCE3VPi0CHQBm7
+            client-secret: K89UYLBivKSrJQka6QIod0LDLXZVHbTV
             provider: keycloak
             scope:
               - openid
@@ -16,10 +16,10 @@ spring:
               - email
         provider:
           keycloak:
-            issuer-uri: http://localhost:8080/realms/Nimith
+            issuer-uri: http://localhost:8080/realms/master
       resourceserver:
         jwt:
-          issuer-uri: http://localhost:8080/realms/Nimith
+          issuer-uri: http://localhost:8080/realms/master
 
 jwt:
   auth:

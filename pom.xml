@@ -20,6 +20,7 @@
         <module>security-Oauth2 Demo</module>
         <module>spring-keycloak-demo</module>
         <module>oauth2-client-server-intergrate-springboot</module>
+        <module>jpaSpecification</module>
     </modules>
 
     <groupId>com.personal</groupId>

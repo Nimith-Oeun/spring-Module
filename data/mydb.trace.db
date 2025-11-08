@@ -1,0 +1,247 @@
+2025-11-08 11:38:54.506164+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MENU_ITEMS" not found (this database is empty); SQL statement:
+INSERT INTO menu_items (name, size, price, image, category, description, is_active, created_at, updated_at) VALUES ('Iced Coffee', 'M', '3.50', 'https://images.unsplash.com/photo-1461988320302-91bde64fc8e4?w=400', 'DRINK', 'Fresh brewed coffee served over ice', true, NOW(), NOW()), ('Hot Chocolate', 'L', '4.00', 'https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=400', 'DRINK', 'Rich and creamy hot chocolate', true, NOW(), NOW()), ('Green Tea Latte', 'M', '4.50', 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400', 'DRINK', 'Smooth green tea with steamed milk', true, NOW(), NOW()), ('Fresh Orange Juice', 'L', '3.00', 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400', 'DRINK', 'Freshly squeezed orange juice', true, NOW(), NOW()), ('Cappuccino', 'M', '4.25', 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400', 'DRINK', 'Espresso with steamed milk foam', true, NOW(), NOW()), ('Smoothie Bowl', 'L', '5.50', 'https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=400', 'DRINK', 'Mixed fruit smoothie in a bowl', true, NOW(), NOW()), ('Thai Iced Tea', 'M', '3.75', 'https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=400', 'DRINK', 'Traditional Thai tea with milk', true, NOW(), NOW()) [42104-232]
+2025-11-08 11:42:07.315053+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MENU_ITEMS" not found (this database is empty); SQL statement:
+INSERT INTO menu_items (name, size, price, image, category, description, is_active, created_at, updated_at) VALUES ('Iced Coffee', 'M', '3.50', 'https://images.unsplash.com/photo-1461988320302-91bde64fc8e4?w=400', 'DRINK', 'Fresh brewed coffee served over ice', true, NOW(), NOW()), ('Hot Chocolate', 'L', '4.00', 'https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=400', 'DRINK', 'Rich and creamy hot chocolate', true, NOW(), NOW()), ('Green Tea Latte', 'M', '4.50', 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400', 'DRINK', 'Smooth green tea with steamed milk', true, NOW(), NOW()), ('Fresh Orange Juice', 'L', '3.00', 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400', 'DRINK', 'Freshly squeezed orange juice', true, NOW(), NOW()), ('Cappuccino', 'M', '4.25', 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400', 'DRINK', 'Espresso with steamed milk foam', true, NOW(), NOW()), ('Smoothie Bowl', 'L', '5.50', 'https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=400', 'DRINK', 'Mixed fruit smoothie in a bowl', true, NOW(), NOW()), ('Thai Iced Tea', 'M', '3.75', 'https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=400', 'DRINK', 'Traditional Thai tea with milk', true, NOW(), NOW()) [42104-232]
+2025-11-08 11:43:26.881862+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MENU_ITEMS" not found (this database is empty); SQL statement:
+INSERT INTO menu_items (name, size, price, image, category, description, is_active, created_at, updated_at) VALUES ('Iced Coffee', 'M', '3.50', 'https://images.unsplash.com/photo-1461988320302-91bde64fc8e4?w=400', 'DRINK', 'Fresh brewed coffee served over ice', true, NOW(), NOW()), ('Hot Chocolate', 'L', '4.00', 'https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=400', 'DRINK', 'Rich and creamy hot chocolate', true, NOW(), NOW()), ('Green Tea Latte', 'M', '4.50', 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400', 'DRINK', 'Smooth green tea with steamed milk', true, NOW(), NOW()), ('Fresh Orange Juice', 'L', '3.00', 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400', 'DRINK', 'Freshly squeezed orange juice', true, NOW(), NOW()), ('Cappuccino', 'M', '4.25', 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400', 'DRINK', 'Espresso with steamed milk foam', true, NOW(), NOW()), ('Smoothie Bowl', 'L', '5.50', 'https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=400', 'DRINK', 'Mixed fruit smoothie in a bowl', true, NOW(), NOW()), ('Thai Iced Tea', 'M', '3.75', 'https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=400', 'DRINK', 'Traditional Thai tea with milk', true, NOW(), NOW()) [42104-232]
+2025-11-08 11:45:13.933860+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MENU_ITEMS" not found (this database is empty); SQL statement:
+INSERT INTO menu_items (name, size, price, image, category, description, is_active, created_at, updated_at) VALUES ('Iced Coffee', 'M', '3.50', 'https://images.unsplash.com/photo-1461988320302-91bde64fc8e4?w=400', 'DRINK', 'Fresh brewed coffee served over ice', true, NOW(), NOW()), ('Hot Chocolate', 'L', '4.00', 'https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=400', 'DRINK', 'Rich and creamy hot chocolate', true, NOW(), NOW()), ('Green Tea Latte', 'M', '4.50', 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400', 'DRINK', 'Smooth green tea with steamed milk', true, NOW(), NOW()), ('Fresh Orange Juice', 'L', '3.00', 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400', 'DRINK', 'Freshly squeezed orange juice', true, NOW(), NOW()), ('Cappuccino', 'M', '4.25', 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400', 'DRINK', 'Espresso with steamed milk foam', true, NOW(), NOW()), ('Smoothie Bowl', 'L', '5.50', 'https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=400', 'DRINK', 'Mixed fruit smoothie in a bowl', true, NOW(), NOW()), ('Thai Iced Tea', 'M', '3.75', 'https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=400', 'DRINK', 'Traditional Thai tea with milk', true, NOW(), NOW()) [42104-232]
+2025-11-08 04:50:52.890732Z jdbc[3]: exception
+java.sql.SQLClientInfoException: Client info name 'ApplicationName' not supported.
+	at org.h2.jdbc.JdbcConnection.setClientInfo(JdbcConnection.java:1624)
+	at com.intellij.database.remote.jdbc.impl.RemoteConnectionImpl.setClientInfo(RemoteConnectionImpl.java:468)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-11-08 04:51:01.572989Z jdbc[3]: exception
+java.sql.SQLClientInfoException: Client info name 'ApplicationName' not supported.
+	at org.h2.jdbc.JdbcConnection.setClientInfo(JdbcConnection.java:1624)
+	at com.intellij.database.remote.jdbc.impl.RemoteConnectionImpl.setClientInfo(RemoteConnectionImpl.java:468)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-11-08 11:51:50.635564+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MENU_ITEMS" not found (this database is empty); SQL statement:
+INSERT INTO menu_items (name, size, price, image, category, description, is_active, created_at, updated_at) VALUES ('Iced Coffee', 'M', '3.50', 'https://images.unsplash.com/photo-1461988320302-91bde64fc8e4?w=400', 'DRINK', 'Fresh brewed coffee served over ice', true, NOW(), NOW()), ('Hot Chocolate', 'L', '4.00', 'https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=400', 'DRINK', 'Rich and creamy hot chocolate', true, NOW(), NOW()), ('Green Tea Latte', 'M', '4.50', 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400', 'DRINK', 'Smooth green tea with steamed milk', true, NOW(), NOW()), ('Fresh Orange Juice', 'L', '3.00', 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400', 'DRINK', 'Freshly squeezed orange juice', true, NOW(), NOW()), ('Cappuccino', 'M', '4.25', 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400', 'DRINK', 'Espresso with steamed milk foam', true, NOW(), NOW()), ('Smoothie Bowl', 'L', '5.50', 'https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=400', 'DRINK', 'Mixed fruit smoothie in a bowl', true, NOW(), NOW()), ('Thai Iced Tea', 'M', '3.75', 'https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=400', 'DRINK', 'Traditional Thai tea with milk', true, NOW(), NOW()) [42104-232]
+2025-11-08 11:52:49.640069+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MENU_ITEMS" not found (this database is empty); SQL statement:
+INSERT INTO menu_items (name, size, price, image, category, description, is_active, created_at, updated_at) VALUES ('Iced Coffee', 'M', '3.50', 'https://images.unsplash.com/photo-1461988320302-91bde64fc8e4?w=400', 'DRINK', 'Fresh brewed coffee served over ice', true, NOW(), NOW()), ('Hot Chocolate', 'L', '4.00', 'https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=400', 'DRINK', 'Rich and creamy hot chocolate', true, NOW(), NOW()), ('Green Tea Latte', 'M', '4.50', 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400', 'DRINK', 'Smooth green tea with steamed milk', true, NOW(), NOW()), ('Fresh Orange Juice', 'L', '3.00', 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400', 'DRINK', 'Freshly squeezed orange juice', true, NOW(), NOW()), ('Cappuccino', 'M', '4.25', 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400', 'DRINK', 'Espresso with steamed milk foam', true, NOW(), NOW()), ('Smoothie Bowl', 'L', '5.50', 'https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=400', 'DRINK', 'Mixed fruit smoothie in a bowl', true, NOW(), NOW()), ('Thai Iced Tea', 'M', '3.75', 'https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=400', 'DRINK', 'Traditional Thai tea with milk', true, NOW(), NOW()) [42104-232]
+2025-11-08 11:55:19.495567+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MENU_ITEMS" not found (this database is empty); SQL statement:
+INSERT INTO menu_items (name, size, price, image, category, description, is_active, created_at, updated_at) VALUES ('Iced Coffee', 'M', '3.50', 'https://images.unsplash.com/photo-1461988320302-91bde64fc8e4?w=400', 'DRINK', 'Fresh brewed coffee served over ice', true, NOW(), NOW()), ('Hot Chocolate', 'L', '4.00', 'https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=400', 'DRINK', 'Rich and creamy hot chocolate', true, NOW(), NOW()), ('Green Tea Latte', 'M', '4.50', 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400', 'DRINK', 'Smooth green tea with steamed milk', true, NOW(), NOW()), ('Fresh Orange Juice', 'L', '3.00', 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400', 'DRINK', 'Freshly squeezed orange juice', true, NOW(), NOW()), ('Cappuccino', 'M', '4.25', 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400', 'DRINK', 'Espresso with steamed milk foam', true, NOW(), NOW()), ('Smoothie Bowl', 'L', '5.50', 'https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=400', 'DRINK', 'Mixed fruit smoothie in a bowl', true, NOW(), NOW()), ('Thai Iced Tea', 'M', '3.75', 'https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=400', 'DRINK', 'Traditional Thai tea with milk', true, NOW(), NOW()) [42104-232]
+2025-11-08 11:59:46.092622+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MENU_ITEMS" not found (this database is empty); SQL statement:
+INSERT INTO menu_items (name, size, price, image, category, description, is_active, created_at, updated_at) VALUES ('Iced Coffee', 'M', '3.50', 'https://images.unsplash.com/photo-1461988320302-91bde64fc8e4?w=400', 'DRINK', 'Fresh brewed coffee served over ice', true, NOW(), NOW()), ('Hot Chocolate', 'L', '4.00', 'https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=400', 'DRINK', 'Rich and creamy hot chocolate', true, NOW(), NOW()), ('Green Tea Latte', 'M', '4.50', 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400', 'DRINK', 'Smooth green tea with steamed milk', true, NOW(), NOW()), ('Fresh Orange Juice', 'L', '3.00', 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400', 'DRINK', 'Freshly squeezed orange juice', true, NOW(), NOW()), ('Cappuccino', 'M', '4.25', 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400', 'DRINK', 'Espresso with steamed milk foam', true, NOW(), NOW()), ('Smoothie Bowl', 'L', '5.50', 'https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=400', 'DRINK', 'Mixed fruit smoothie in a bowl', true, NOW(), NOW()), ('Thai Iced Tea', 'M', '3.75', 'https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=400', 'DRINK', 'Traditional Thai tea with milk', true, NOW(), NOW()) [42104-232]
+2025-11-08 12:00:19.335050+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MENU_ITEMS" not found (this database is empty); SQL statement:
+INSERT INTO menu_items (name, size, price, image, category, description, is_active, created_at, updated_at) VALUES ('Iced Coffee', 'M', '3.50', 'https://images.unsplash.com/photo-1461988320302-91bde64fc8e4?w=400', 'DRINK', 'Fresh brewed coffee served over ice', true, NOW(), NOW()), ('Hot Chocolate', 'L', '4.00', 'https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=400', 'DRINK', 'Rich and creamy hot chocolate', true, NOW(), NOW()), ('Green Tea Latte', 'M', '4.50', 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400', 'DRINK', 'Smooth green tea with steamed milk', true, NOW(), NOW()), ('Fresh Orange Juice', 'L', '3.00', 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400', 'DRINK', 'Freshly squeezed orange juice', true, NOW(), NOW()), ('Cappuccino', 'M', '4.25', 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400', 'DRINK', 'Espresso with steamed milk foam', true, NOW(), NOW()), ('Smoothie Bowl', 'L', '5.50', 'https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=400', 'DRINK', 'Mixed fruit smoothie in a bowl', true, NOW(), NOW()), ('Thai Iced Tea', 'M', '3.75', 'https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=400', 'DRINK', 'Traditional Thai tea with milk', true, NOW(), NOW()) [42104-232]
+2025-11-08 12:00:40.795248+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MENU_ITEMS" not found (this database is empty); SQL statement:
+INSERT INTO menu_items (name, size, price, image, category, description, is_active, created_at, updated_at) VALUES ('Iced Coffee', 'M', '3.50', 'https://images.unsplash.com/photo-1461988320302-91bde64fc8e4?w=400', 'DRINK', 'Fresh brewed coffee served over ice', true, NOW(), NOW()), ('Hot Chocolate', 'L', '4.00', 'https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=400', 'DRINK', 'Rich and creamy hot chocolate', true, NOW(), NOW()), ('Green Tea Latte', 'M', '4.50', 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400', 'DRINK', 'Smooth green tea with steamed milk', true, NOW(), NOW()), ('Fresh Orange Juice', 'L', '3.00', 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400', 'DRINK', 'Freshly squeezed orange juice', true, NOW(), NOW()), ('Cappuccino', 'M', '4.25', 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400', 'DRINK', 'Espresso with steamed milk foam', true, NOW(), NOW()), ('Smoothie Bowl', 'L', '5.50', 'https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=400', 'DRINK', 'Mixed fruit smoothie in a bowl', true, NOW(), NOW()), ('Thai Iced Tea', 'M', '3.75', 'https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=400', 'DRINK', 'Traditional Thai tea with milk', true, NOW(), NOW()) [42104-232]
+2025-11-08 12:02:00.811960+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MENU_ITEMS" not found (this database is empty); SQL statement:
+INSERT INTO menu_items (name, size, price, image, category, description, is_active, created_at, updated_at) VALUES ('Iced Coffee', 'M', '3.50', 'https://images.unsplash.com/photo-1461988320302-91bde64fc8e4?w=400', 'DRINK', 'Fresh brewed coffee served over ice', true, NOW(), NOW()), ('Hot Chocolate', 'L', '4.00', 'https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=400', 'DRINK', 'Rich and creamy hot chocolate', true, NOW(), NOW()), ('Green Tea Latte', 'M', '4.50', 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400', 'DRINK', 'Smooth green tea with steamed milk', true, NOW(), NOW()), ('Fresh Orange Juice', 'L', '3.00', 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400', 'DRINK', 'Freshly squeezed orange juice', true, NOW(), NOW()), ('Cappuccino', 'M', '4.25', 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400', 'DRINK', 'Espresso with steamed milk foam', true, NOW(), NOW()), ('Smoothie Bowl', 'L', '5.50', 'https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=400', 'DRINK', 'Mixed fruit smoothie in a bowl', true, NOW(), NOW()), ('Thai Iced Tea', 'M', '3.75', 'https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=400', 'DRINK', 'Traditional Thai tea with milk', true, NOW(), NOW()) [42104-232]
+2025-11-08 12:04:35.685743+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MENU_ITEMS" not found (this database is empty); SQL statement:
+INSERT INTO menu_items (name, size, price, image, category, description, is_active, created_at, updated_at) VALUES ('Iced Coffee', 'M', '3.50', 'https://images.unsplash.com/photo-1461988320302-91bde64fc8e4?w=400', 'DRINK', 'Fresh brewed coffee served over ice', true, NOW(), NOW()), ('Hot Chocolate', 'L', '4.00', 'https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=400', 'DRINK', 'Rich and creamy hot chocolate', true, NOW(), NOW()), ('Green Tea Latte', 'M', '4.50', 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400', 'DRINK', 'Smooth green tea with steamed milk', true, NOW(), NOW()), ('Fresh Orange Juice', 'L', '3.00', 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400', 'DRINK', 'Freshly squeezed orange juice', true, NOW(), NOW()), ('Cappuccino', 'M', '4.25', 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400', 'DRINK', 'Espresso with steamed milk foam', true, NOW(), NOW()), ('Smoothie Bowl', 'L', '5.50', 'https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=400', 'DRINK', 'Mixed fruit smoothie in a bowl', true, NOW(), NOW()), ('Thai Iced Tea', 'M', '3.75', 'https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=400', 'DRINK', 'Traditional Thai tea with milk', true, NOW(), NOW()) [42104-232]
+2025-11-08 05:05:36.044464Z database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: D:/School/Spring Boot/spring-module/data/mydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:344)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.intellij.database.remote.jdbc.helpers.JdbcHelperImpl.connect(JdbcHelperImpl.java:769)
+	at com.intellij.database.remote.jdbc.impl.RemoteDriverImpl.connect(RemoteDriverImpl.java:152)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: D:/School/Spring Boot/spring-module/data/mydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 32 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: D:/School/Spring Boot/spring-module/data/mydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 26 more
+2025-11-08 05:06:03.522586Z database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: D:/School/Spring Boot/spring-module/data/mydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:344)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.intellij.database.remote.jdbc.helpers.JdbcHelperImpl.connect(JdbcHelperImpl.java:769)
+	at com.intellij.database.remote.jdbc.impl.RemoteDriverImpl.connect(RemoteDriverImpl.java:152)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: D:/School/Spring Boot/spring-module/data/mydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 32 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: D:/School/Spring Boot/spring-module/data/mydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 26 more
+2025-11-08 05:06:34.759090Z database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The file is locked: D:/School/Spring Boot/spring-module/data/mydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:344)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.intellij.database.remote.jdbc.helpers.JdbcHelperImpl.connect(JdbcHelperImpl.java:769)
+	at com.intellij.database.remote.jdbc.impl.RemoteDriverImpl.connect(RemoteDriverImpl.java:152)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The file is locked: D:/School/Spring Boot/spring-module/data/mydb.mv.db [2.3.232/7]" [50000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 32 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: D:/School/Spring Boot/spring-module/data/mydb.mv.db [2.3.232/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 26 more
+2025-11-08 05:06:48.210971Z jdbc[3]: exception
+java.sql.SQLClientInfoException: Client info name 'ApplicationName' not supported.
+	at org.h2.jdbc.JdbcConnection.setClientInfo(JdbcConnection.java:1624)
+	at com.intellij.database.remote.jdbc.impl.RemoteConnectionImpl.setClientInfo(RemoteConnectionImpl.java:468)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-11-08 05:06:55.621755Z jdbc[3]: exception
+java.sql.SQLClientInfoException: Client info name 'ApplicationName' not supported.
+	at org.h2.jdbc.JdbcConnection.setClientInfo(JdbcConnection.java:1624)
+	at com.intellij.database.remote.jdbc.impl.RemoteConnectionImpl.setClientInfo(RemoteConnectionImpl.java:468)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
