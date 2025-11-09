@@ -1,0 +1,25 @@
+
+spring:
+  application:
+    name: securityOauth2
+
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Iv23li8tDZRnSlIlbchw
+            client-secret: f5ead8c1808ad2e629bd5081e68a09fd6579aa24
+            scope: read:user
+#          scope: profile, email
+#          redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
+#          client-name: Google
+#          scope: read:user
+#        provider:
+#          github:
+#            authorization-uri: https://github.com/login/oauth/authorize
+#            token-uri: https://github.com/login/oauth/access_token
+#            user-info-uri: https://api.github.com/user
+
+server:
+  port: 9090

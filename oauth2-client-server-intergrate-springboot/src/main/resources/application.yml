@@ -1,0 +1,28 @@
+server:
+  port: 9090
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          keycloak:
+            client-id: github-nimith-cc
+            client-secret: K89UYLBivKSrJQka6QIod0LDLXZVHbTV
+            provider: keycloak
+            scope:
+              - openid
+              - profile
+              - email
+        provider:
+          keycloak:
+            issuer-uri: http://localhost:8080/realms/master
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/master
+
+jwt:
+  auth:
+    converter:
+      resource-id: github-nimith-cc
+      principle-attribute: preferred_username
