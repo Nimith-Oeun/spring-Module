@@ -2,6 +2,8 @@ package com.personal.specificatios;
 
 import lombok.Data;
 
+import java.time.LocalDate;
+
 @Data
 public class ProductFilter {
     private String name;

@@ -4,7 +4,9 @@ import com.personal.model.Product;
 import com.personal.paginations.PageUtils;
 import com.personal.repository.ProductRepository;
 import com.personal.specificatios.ProductFilter;
+import com.personal.specificatios.ProductReportSpec;
 import com.personal.specificatios.ProductSpec;
+import com.personal.specificatios.ReportFilter;
 import com.personal.specificatios.utils.ProductUtils;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -13,6 +15,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;
 
@@ -63,6 +67,18 @@ public class ProductServiceImpl implements ProductService {
 
 
         return productRepository.findAll(productSpec, pageable);
+    }
+
+    @Override
+    public List<Product> findProductReports(LocalDate startDate, LocalDate endDate) {
+
+        ReportFilter reportFilter = new ReportFilter();
+        reportFilter.setStartDate(startDate.atStartOfDay());
+        reportFilter.setEndDate(endDate.atTime(23,59,59));
+
+        ProductReportSpec productReportSpec = new ProductReportSpec(reportFilter);
+
+        return productRepository.findAll(productReportSpec) ;
     }
 
     /**
